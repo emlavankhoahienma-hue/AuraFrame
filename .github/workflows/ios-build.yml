@@ -1,0 +1,46 @@
+name: iOS Sideload Build & Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-unsigned-ipa:
+    runs-on: macos-15
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Print Xcode Version
+        run: xcodebuild -version
+
+      - name: Build Archive (Unsigned)
+        run: |
+          xcodebuild archive \
+            -project AuraFrame.xcodeproj \
+            -scheme AuraFrame \
+            -configuration Release \
+            -archivePath build/AuraFrame.xcarchive \
+            -destination "generic/platform=iOS" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            AD_HOC_CODE_SIGNING_ALLOWED=YES
+
+      - name: Package Unsigned IPA
+        run: |
+          mkdir -p build/Payload
+          APP_PATH=$(find build -name "AuraFrame.app" -type d | head -n 1)
+          echo "Found app bundle at: $APP_PATH"
+          cp -R "$APP_PATH" build/Payload/
+          cd build
+          zip -qr AuraFrame-unsigned.ipa Payload
+          cd ..
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AuraFrame-unsigned-ipa
+          path: build/AuraFrame-unsigned.ipa
+          retention-days: 14

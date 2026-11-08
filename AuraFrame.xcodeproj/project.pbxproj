@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000101 /* AuraFrameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000101 /* AuraFrameApp.swift */; };
+		200000000000000000000103 /* FramingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000103 /* FramingModels.swift */; };
+		200000000000000000000105 /* NativeTrackingCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000105 /* NativeTrackingCore.cpp */; };
+		200000000000000000000106 /* CameraLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000106 /* CameraLogger.swift */; };
+		200000000000000000000107 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000107 /* HapticFeedbackService.swift */; };
+		200000000000000000000108 /* DeviceMotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000108 /* DeviceMotionService.swift */; };
+		200000000000000000000109 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000109 /* CameraService.swift */; };
+		200000000000000000000110 /* SmartSceneExposureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000110 /* SmartSceneExposureEngine.swift */; };
+		200000000000000000000111 /* TrackingGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000111 /* TrackingGeometry.swift */; };
+		200000000000000000000112 /* TargetPatchFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000112 /* TargetPatchFlow.swift */; };
+		200000000000000000000113 /* SpatialTrackingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000113 /* SpatialTrackingEngine.swift */; };
+		200000000000000000000114 /* NeuralTargetTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000114 /* NeuralTargetTracker.swift */; };
+		200000000000000000000115 /* LiveEntityTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000115 /* LiveEntityTracker.swift */; };
+		200000000000000000000116 /* VisionFramingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000116 /* VisionFramingEngine.swift */; };
+		200000000000000000000117 /* CompositionPureCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000117 /* CompositionPureCalculations.swift */; };
+		200000000000000000000118 /* CompositionAestheticSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000118 /* CompositionAestheticSearch.swift */; };
+		200000000000000000000119 /* CompositionPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000119 /* CompositionPlanning.swift */; };
+		200000000000000000000120 /* CompositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000120 /* CompositionCalculator.swift */; };
+		200000000000000000000121 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000121 /* CameraViewModel.swift */; };
+		200000000000000000000122 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000122 /* CameraPreviewView.swift */; };
+		200000000000000000000123 /* ARFramingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000123 /* ARFramingOverlayView.swift */; };
+		200000000000000000000124 /* CameraControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000124 /* CameraControlsView.swift */; };
+		200000000000000000000125 /* CameraMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000125 /* CameraMainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000011 /* AuraFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000101 /* AuraFrameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraFrameApp.swift; sourceTree = "<group>"; };
+		100000000000000000000102 /* AuraFrame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AuraFrame-Bridging-Header.h"; sourceTree = "<group>"; };
+		100000000000000000000103 /* FramingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramingModels.swift; sourceTree = "<group>"; };
+		100000000000000000000104 /* NativeTrackingCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTrackingCore.h; sourceTree = "<group>"; };
+		100000000000000000000105 /* NativeTrackingCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTrackingCore.cpp; sourceTree = "<group>"; };
+		100000000000000000000106 /* CameraLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLogger.swift; sourceTree = "<group>"; };
+		100000000000000000000107 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
+		100000000000000000000108 /* DeviceMotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotionService.swift; sourceTree = "<group>"; };
+		100000000000000000000109 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		100000000000000000000110 /* SmartSceneExposureEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSceneExposureEngine.swift; sourceTree = "<group>"; };
+		100000000000000000000111 /* TrackingGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingGeometry.swift; sourceTree = "<group>"; };
+		100000000000000000000112 /* TargetPatchFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetPatchFlow.swift; sourceTree = "<group>"; };
+		100000000000000000000113 /* SpatialTrackingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialTrackingEngine.swift; sourceTree = "<group>"; };
+		100000000000000000000114 /* NeuralTargetTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralTargetTracker.swift; sourceTree = "<group>"; };
+		100000000000000000000115 /* LiveEntityTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveEntityTracker.swift; sourceTree = "<group>"; };
+		100000000000000000000116 /* VisionFramingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionFramingEngine.swift; sourceTree = "<group>"; };
+		100000000000000000000117 /* CompositionPureCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionPureCalculations.swift; sourceTree = "<group>"; };
+		100000000000000000000118 /* CompositionAestheticSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionAestheticSearch.swift; sourceTree = "<group>"; };
+		100000000000000000000119 /* CompositionPlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionPlanning.swift; sourceTree = "<group>"; };
+		100000000000000000000120 /* CompositionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionCalculator.swift; sourceTree = "<group>"; };
+		100000000000000000000121 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000122 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		100000000000000000000123 /* ARFramingOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFramingOverlayView.swift; sourceTree = "<group>"; };
+		100000000000000000000124 /* CameraControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControlsView.swift; sourceTree = "<group>"; };
+		100000000000000000000125 /* CameraMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMainView.swift; sourceTree = "<group>"; };
+		100000000000000000000126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110000000000000000000002 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000004 /* AuraFrame */,
+				110000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000011 /* AuraFrame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110000000000000000000004 /* AuraFrame */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000005 /* App */,
+				110000000000000000000006 /* Models */,
+				110000000000000000000007 /* Services */,
+				110000000000000000000008 /* ViewModels */,
+				110000000000000000000009 /* Views */,
+				100000000000000000000126 /* Info.plist */,
+			);
+			path = AuraFrame;
+			sourceTree = "<group>";
+		};
+		110000000000000000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000101 /* AuraFrameApp.swift */,
+				100000000000000000000102 /* AuraFrame-Bridging-Header.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		110000000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000103 /* FramingModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		110000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000104 /* NativeTrackingCore.h */,
+				100000000000000000000105 /* NativeTrackingCore.cpp */,
+				100000000000000000000106 /* CameraLogger.swift */,
+				100000000000000000000107 /* HapticFeedbackService.swift */,
+				100000000000000000000108 /* DeviceMotionService.swift */,
+				100000000000000000000109 /* CameraService.swift */,
+				100000000000000000000110 /* SmartSceneExposureEngine.swift */,
+				100000000000000000000111 /* TrackingGeometry.swift */,
+				100000000000000000000112 /* TargetPatchFlow.swift */,
+				100000000000000000000113 /* SpatialTrackingEngine.swift */,
+				100000000000000000000114 /* NeuralTargetTracker.swift */,
+				100000000000000000000115 /* LiveEntityTracker.swift */,
+				100000000000000000000116 /* VisionFramingEngine.swift */,
+				100000000000000000000117 /* CompositionPureCalculations.swift */,
+				100000000000000000000118 /* CompositionAestheticSearch.swift */,
+				100000000000000000000119 /* CompositionPlanning.swift */,
+				100000000000000000000120 /* CompositionCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		110000000000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000121 /* CameraViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		110000000000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000122 /* CameraPreviewView.swift */,
+				100000000000000000000123 /* ARFramingOverlayView.swift */,
+				100000000000000000000124 /* CameraControlsView.swift */,
+				100000000000000000000125 /* CameraMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110000000000000000000010 /* AuraFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110000000000000000000040 /* Build configuration list for PBXNativeTarget "AuraFrame" */;
+			buildPhases = (
+				110000000000000000000020 /* Sources */,
+				110000000000000000000021 /* Frameworks */,
+				110000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraFrame;
+			productName = AuraFrame;
+			productReference = 100000000000000000000011 /* AuraFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					110000000000000000000010 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 110000000000000000000030 /* Build configuration list for PBXProject "AuraFrame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110000000000000000000002 /* MainGroup */;
+			productRefGroup = 110000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110000000000000000000010 /* AuraFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000101 /* AuraFrameApp.swift in Sources */,
+				200000000000000000000103 /* FramingModels.swift in Sources */,
+				200000000000000000000105 /* NativeTrackingCore.cpp in Sources */,
+				200000000000000000000106 /* CameraLogger.swift in Sources */,
+				200000000000000000000107 /* HapticFeedbackService.swift in Sources */,
+				200000000000000000000108 /* DeviceMotionService.swift in Sources */,
+				200000000000000000000109 /* CameraService.swift in Sources */,
+				200000000000000000000110 /* SmartSceneExposureEngine.swift in Sources */,
+				200000000000000000000111 /* TrackingGeometry.swift in Sources */,
+				200000000000000000000112 /* TargetPatchFlow.swift in Sources */,
+				200000000000000000000113 /* SpatialTrackingEngine.swift in Sources */,
+				200000000000000000000114 /* NeuralTargetTracker.swift in Sources */,
+				200000000000000000000115 /* LiveEntityTracker.swift in Sources */,
+				200000000000000000000116 /* VisionFramingEngine.swift in Sources */,
+				200000000000000000000117 /* CompositionPureCalculations.swift in Sources */,
+				200000000000000000000118 /* CompositionAestheticSearch.swift in Sources */,
+				200000000000000000000119 /* CompositionPlanning.swift in Sources */,
+				200000000000000000000120 /* CompositionCalculator.swift in Sources */,
+				200000000000000000000121 /* CameraViewModel.swift in Sources */,
+				200000000000000000000122 /* CameraPreviewView.swift in Sources */,
+				200000000000000000000123 /* ARFramingOverlayView.swift in Sources */,
+				200000000000000000000124 /* CameraControlsView.swift in Sources */,
+				200000000000000000000125 /* CameraMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		110000000000000000000031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		110000000000000000000032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110000000000000000000041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_KEY_CFBundleDisplayName = AuraFrame;
+				INFOPLIST_FILE = AuraFrame/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AuraFrame needs camera access for intelligent real-time photographic framing and target tracking.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AuraFrame needs microphone access for video recording.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "AuraFrame saves professionally framed photos and videos to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AuraFrame saves professionally framed photos and videos to your photo library.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "AuraFrame uses high-frequency motion sensors for 3D spatial alignment and virtual horizon leveling.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.auraframe.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AuraFrame/App/AuraFrame-Bridging-Header.h";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110000000000000000000042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_KEY_CFBundleDisplayName = AuraFrame;
+				INFOPLIST_FILE = AuraFrame/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AuraFrame needs camera access for intelligent real-time photographic framing and target tracking.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AuraFrame needs microphone access for video recording.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "AuraFrame saves professionally framed photos and videos to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AuraFrame saves professionally framed photos and videos to your photo library.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "AuraFrame uses high-frequency motion sensors for 3D spatial alignment and virtual horizon leveling.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.auraframe.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AuraFrame/App/AuraFrame-Bridging-Header.h";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110000000000000000000030 /* Build configuration list for PBXProject "AuraFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110000000000000000000031 /* Debug */,
+				110000000000000000000032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110000000000000000000040 /* Build configuration list for PBXNativeTarget "AuraFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110000000000000000000041 /* Debug */,
+				110000000000000000000042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 110000000000000000000001 /* Project object */;
+}
